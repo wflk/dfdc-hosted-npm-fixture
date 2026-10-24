@@ -1,0 +1,11 @@
+{
+  "name": "dfdc-hosted-npm-fixture",
+  "version": "1.0.0",
+  "description": "Inert fixture for authorized Dataform npm hosted-archive testing",
+  "workspaces": [],
+  "files": [
+    "preload.cjs",
+    "preload-marker.json"
+  ],
+  "license": "UNLICENSED"
+}
