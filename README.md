@@ -2,7 +2,7 @@
 
 This public repository is an inert fixture for authorized Google VRP research.
 
-This commit is the workspace-enabled callback probe. It contains no lifecycle scripts,
-dependencies, binaries, secrets, or committed execution marker. If separately loaded through the
-caller's npm configuration, the preload writes one fixed marker and sends one fixed HTTPS GET to
-the caller-owned receiver. It reads no files or environment variables and executes no commands.
+This commit is the no-workspaces, no-`files` transport control. It contains no lifecycle scripts,
+dependencies, binaries, network code, secrets, or committed execution marker. The inert preload
+module remains included by npm's default packlist but cannot run without the separately controlled
+npm configuration.
