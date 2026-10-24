@@ -2,7 +2,7 @@
 
 This public repository is an inert fixture for authorized Google VRP research.
 
-This commit is the workspace-enabled, no-`files` callback probe. It contains no lifecycle scripts,
-dependencies, binaries, secrets, or committed execution marker. If separately loaded through the
-caller's npm configuration, the preload writes one fixed marker and sends one fixed HTTPS GET to
-the caller-owned receiver. It reads no files or environment variables and executes no commands.
+This commit is the invalid-workspaces child-start witness. Its fixed string-valued `workspaces`
+field asks npm to validate the package after hosted-Git extraction. It contains no lifecycle
+scripts, dependencies, binaries, JavaScript, network targets, file operations, environment reads,
+secrets, or execution payloads.
