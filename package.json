@@ -1,6 +1,7 @@
 {
   "name": "dfdc-hosted-npm-fixture",
   "version": "1.0.0",
-  "description": "Inert no-files control for authorized Dataform npm hosted-archive testing",
+  "description": "Inert no-files fixture for authorized Dataform npm hosted-archive testing",
+  "workspaces": [],
   "license": "UNLICENSED"
 }
