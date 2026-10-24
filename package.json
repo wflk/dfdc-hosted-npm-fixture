@@ -1,7 +1,7 @@
 {
   "name": "dfdc-hosted-npm-fixture",
   "version": "1.0.0",
-  "description": "Inert child-start fixture for authorized Dataform npm hosted-archive testing",
-  "workspaces": "DFDC_INVALID_WORKSPACES_701",
+  "description": "Inert child-completion fixture for authorized Dataform hosted-Git testing",
+  "workspaces": [],
   "license": "UNLICENSED"
 }
