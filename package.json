@@ -1,7 +1,9 @@
 {
-  "name": "dfdc-hosted-npm-fixture",
+  "name": "dfdc-hosted-npm-prepare-marker-20261025-b",
   "version": "1.0.0",
-  "description": "Inert child-completion fixture for authorized Dataform hosted-Git testing",
-  "workspaces": [],
+  "description": "Benign explicit-port prepare marker for authorized Dataform testing",
+  "scripts": {
+    "prepare": "node -e \"process.stderr.write('DFDC_PREPARE_EXECUTED_20261025_B\\n'); process.exit(42)\""
+  },
   "license": "UNLICENSED"
 }
