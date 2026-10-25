@@ -1,7 +1,9 @@
 {
-  "name": "dfdc-hosted-npm-fixture",
+  "name": "dfdc-direct-install-marker-20261025-c",
   "version": "1.0.0",
-  "description": "Inert child-completion fixture for authorized Dataform hosted-Git testing",
-  "workspaces": [],
+  "description": "Benign install marker for authorized Dataform testing",
+  "scripts": {
+    "install": "node -e \"process.stderr.write('DFDC_INSTALL_EXECUTED_20261025_C\\n'); process.exit(43)\""
+  },
   "license": "UNLICENSED"
 }
