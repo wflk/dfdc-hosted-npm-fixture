@@ -1,7 +1,9 @@
 {
-  "name": "dfdc-hosted-npm-fixture",
+  "name": "dfdc-transitive-missing-control",
   "version": "1.0.0",
-  "description": "Inert child-completion fixture for authorized Dataform hosted-Git testing",
-  "workspaces": [],
+  "description": "Inert transitive resolution control for authorized Dataform testing",
+  "dependencies": {
+    "dfdc-bugswat-definitely-missing-706395795807": "1.0.0"
+  },
   "license": "UNLICENSED"
 }
