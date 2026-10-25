@@ -1,7 +1,9 @@
 {
-  "name": "dfdc-hosted-npm-fixture",
+  "name": "dfdc-transitive-git-prepare-marker-wrapper-20261025-a",
   "version": "1.0.0",
-  "description": "Inert child-completion fixture for authorized Dataform hosted-Git testing",
-  "workspaces": [],
+  "description": "Supported tarball wrapper around a benign Git prepare marker",
+  "dependencies": {
+    "dfdc-hosted-npm-prepare-marker-20261025-a": "git+https://github.com/wflk/dfdc-hosted-npm-fixture.git#4f9af8c127ef5144fb8239d865d22e6b824ca384"
+  },
   "license": "UNLICENSED"
 }
