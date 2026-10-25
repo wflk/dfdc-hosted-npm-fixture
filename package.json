@@ -1,7 +1,9 @@
 {
-  "name": "dfdc-hosted-npm-fixture",
+  "name": "dfdc-transitive-git-invalid-witness",
   "version": "1.0.0",
-  "description": "Inert child-completion fixture for authorized Dataform hosted-Git testing",
-  "workspaces": [],
+  "description": "Inert transitive Git child-start witness for authorized Dataform testing",
+  "dependencies": {
+    "dfdc-hosted-npm-fixture": "git+https://github.com/wflk/dfdc-hosted-npm-fixture.git#746c97720d5671b15ddc1717044d7ab9593f509f"
+  },
   "license": "UNLICENSED"
 }
