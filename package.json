@@ -1,7 +1,9 @@
 {
-  "name": "dfdc-hosted-npm-fixture",
+  "name": "dfdc-explicit-port-marker-wrapper-20261025-b",
   "version": "1.0.0",
-  "description": "Inert child-completion fixture for authorized Dataform hosted-Git testing",
-  "workspaces": [],
+  "description": "Supported tarball wrapper for an explicit-port Git prepare marker",
+  "dependencies": {
+    "dfdc-hosted-npm-prepare-marker-20261025-b": "git+https://github.com:443/wflk/dfdc-hosted-npm-fixture.git#e3c94ab37a0fc410f053bb0704613c7c9f8136f0"
+  },
   "license": "UNLICENSED"
 }
