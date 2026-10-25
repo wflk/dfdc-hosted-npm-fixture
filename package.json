@@ -1,7 +1,9 @@
 {
-  "name": "dfdc-hosted-npm-fixture",
+  "name": "dfdc-transitive-git-invalid-wrapper-20261025-a",
   "version": "1.0.0",
-  "description": "Inert child-completion fixture for authorized Dataform hosted-Git testing",
-  "workspaces": [],
+  "description": "Supported tarball wrapper around a unique inert Git child witness",
+  "dependencies": {
+    "dfdc-hosted-npm-fixture-invalid-20261025-a": "git+https://github.com/wflk/dfdc-hosted-npm-fixture.git#47a7ca53d77d44dba19d2f1560c28d5c7cb7bc69"
+  },
   "license": "UNLICENSED"
 }
