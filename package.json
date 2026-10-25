@@ -1,7 +1,9 @@
 {
-  "name": "dfdc-hosted-npm-fixture",
+  "name": "dfdc-transitive-git-empty-control",
   "version": "1.0.0",
-  "description": "Inert child-completion fixture for authorized Dataform hosted-Git testing",
-  "workspaces": [],
+  "description": "Inert transitive Git child-completion control for authorized Dataform testing",
+  "dependencies": {
+    "dfdc-hosted-npm-fixture": "git+https://github.com/wflk/dfdc-hosted-npm-fixture.git#123748209d35f4db261ee33b9bfe39e79bfa9e3c"
+  },
   "license": "UNLICENSED"
 }
